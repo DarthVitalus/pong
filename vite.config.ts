@@ -6,7 +6,7 @@ import linaria from '@linaria/vite';
 export default defineConfig({
   base: '/pong',
   build: {
-    outDir: '/docs',
+    outDir: 'docs',
   },
   plugins: [
     linaria({
