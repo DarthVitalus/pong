@@ -4,7 +4,10 @@ import linaria from '@linaria/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/pong/',
+  base: '/pong',
+  build: {
+    outDir: '/docs',
+  },
   plugins: [
     linaria({
       include: ['**/*.{ts,tsx}'],
