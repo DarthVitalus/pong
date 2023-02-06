@@ -4,6 +4,7 @@ import linaria from '@linaria/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'pong',
   plugins: [
     linaria({
       include: ['**/*.{ts,tsx}'],
